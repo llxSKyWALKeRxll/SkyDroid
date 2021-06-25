@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHeading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="My first android application! =)"
+        android:textColor="#29b6f6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtHeading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHeading1"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="This is way too easy! 8)"
+        android:textColor="#29b6f6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHeading2"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:text="~ SKyWALKeR"
+        android:textColor="#f06292"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imgSuryaDev"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/etxtPassword"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:src="@drawable/surya_dev" />
+
+    <EditText
+        android:id="@+id/etxtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCredits"
+        android:layout_margin="20dp"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etxtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxtName"
+        android:layout_margin="10dp"
+        android:hint="Enter your number"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etxtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxtNumber"
+        android:layout_margin="10dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/butClickMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="#ffff8d"
+        android:text="Click me"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
