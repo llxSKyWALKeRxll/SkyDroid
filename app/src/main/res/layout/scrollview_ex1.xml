@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:backgroundTint="#ff1744"
                 android:text="HERO DETAILS"
                 android:textColor="#ffd600"
                 android:textSize="25sp" />
@@ -38,7 +40,7 @@
                 android:layout_toRightOf="@+id/imgMain1"
                 android:text="Surya Dev"
                 android:textColor="#f9a825"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt1b"
@@ -99,7 +101,7 @@
                 android:layout_toRightOf="@+id/imgMain2"
                 android:text="Daanveer Karn"
                 android:textColor="#f57f17"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt2b"
@@ -140,7 +142,7 @@
                 android:layout_toRightOf="@+id/imgMain3"
                 android:text="Bhishma Pitamah"
                 android:textColor="#64b5f6"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt3b"
@@ -181,7 +183,7 @@
                 android:layout_toRightOf="@+id/imgMain4"
                 android:text="Arjuna"
                 android:textColor="#76ff03"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt4b"
@@ -222,7 +224,7 @@
                 android:layout_toRightOf="@+id/imgMain5"
                 android:text="Abhimanyu"
                 android:textColor="#dd2c00"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt5b"
@@ -246,7 +248,6 @@
                 android:textColor="#dd2c00" />
 
 
-
             <ImageView
                 android:id="@+id/imgMain6"
                 android:layout_width="120dp"
@@ -264,7 +265,7 @@
                 android:layout_toRightOf="@+id/imgMain6"
                 android:text="Krishna"
                 android:textColor="#26c6da"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt6b"

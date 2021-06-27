@@ -3,10 +3,11 @@ package com.internshala.activitylifecycle
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class NewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.scrollview_ex1)
-        title = "SkyDroid"
+        setContentView(R.layout.activity_new)
+
+        title = "SkyDroid: Log In"
     }
 }
