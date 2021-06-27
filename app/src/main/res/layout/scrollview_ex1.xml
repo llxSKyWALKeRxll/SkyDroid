@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/txtDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="HERO DETAILS"
+                android:textColor="#ffd600"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imgMain1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/txtDetails"
+                android:layout_margin="20dp"
+                android:src="@drawable/surya_dev" />
+
+            <TextView
+                android:id="@+id/txt1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDetails"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgMain1"
+                android:text="Surya Dev"
+                android:textColor="#f9a825"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/imgMain1"
+                android:text="suryadev@pranaam.com"
+                android:textColor="#f9a825" />
+
+            <TextView
+                android:id="@+id/txt1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1b"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imgMain1"
+                android:text="+91 1234567890"
+                android:textColor="#f9a825" />
+
+            <!--            <Button-->
+            <!--                android:id="@+id/buttonInfo"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@+id/imgMain"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:layout_marginRight="30dp"-->
+            <!--                android:backgroundTint="#0288d1"-->
+            <!--                android:text="MORE INFORMATION"-->
+            <!--                android:textStyle="bold" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/buttonExit"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_alignParentBottom="true"-->
+            <!--                android:backgroundTint="#d84315"-->
+            <!--                android:text="EXIT THE APP"-->
+            <!--                android:textStyle="bold" />-->
+
+
+            <ImageView
+                android:id="@+id/imgMain2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/imgMain1"
+                android:layout_margin="20dp"
+                android:src="@drawable/karna1" />
+
+            <TextView
+                android:id="@+id/txt2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMain1"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgMain2"
+                android:text="Daanveer Karn"
+                android:textColor="#f57f17"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt2a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/imgMain2"
+                android:text="daanveerkarn@pranaam.com"
+                android:textColor="#f57f17" />
+
+            <TextView
+                android:id="@+id/txt2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt2b"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imgMain2"
+                android:text="+91 9999999999"
+                android:textColor="#f57f17" />
+
+
+            <ImageView
+                android:id="@+id/imgMain3"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/imgMain2"
+                android:layout_margin="20dp"
+                android:src="@drawable/bhishma_pitamah" />
+
+            <TextView
+                android:id="@+id/txt3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMain2"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgMain3"
+                android:text="Bhishma Pitamah"
+                android:textColor="#64b5f6"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt3a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/imgMain3"
+                android:text="bhishmapitamah@pranaam.com"
+                android:textColor="#64b5f6" />
+
+            <TextView
+                android:id="@+id/txt3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt3b"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imgMain3"
+                android:text="+91 8999999999"
+                android:textColor="#64b5f6" />
+
+
+            <ImageView
+                android:id="@+id/imgMain4"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/imgMain3"
+                android:layout_margin="20dp"
+                android:src="@drawable/arjuna" />
+
+            <TextView
+                android:id="@+id/txt4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMain3"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgMain4"
+                android:text="Arjuna"
+                android:textColor="#76ff03"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt4a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/imgMain4"
+                android:text="arjuna@pranaam.com"
+                android:textColor="#76ff03" />
+
+            <TextView
+                android:id="@+id/txt4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt4b"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imgMain4"
+                android:text="+91 7999999999"
+                android:textColor="#76ff03" />
+
+
+            <ImageView
+                android:id="@+id/imgMain5"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/imgMain4"
+                android:layout_margin="20dp"
+                android:src="@drawable/abhimanyu" />
+
+            <TextView
+                android:id="@+id/txt5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMain4"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgMain5"
+                android:text="Abhimanyu"
+                android:textColor="#dd2c00"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt5a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/imgMain5"
+                android:text="abhimanyu@pranaam.com"
+                android:textColor="#dd2c00" />
+
+            <TextView
+                android:id="@+id/txt5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt5b"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imgMain5"
+                android:text="+91 6999999999"
+                android:textColor="#dd2c00" />
+
+
+
+            <ImageView
+                android:id="@+id/imgMain6"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/imgMain5"
+                android:layout_margin="20dp"
+                android:src="@drawable/krishna_ji" />
+
+            <TextView
+                android:id="@+id/txt6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMain5"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgMain6"
+                android:text="Krishna"
+                android:textColor="#26c6da"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt6a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/imgMain6"
+                android:text="krishna@pranaam.com"
+                android:textColor="#26c6da" />
+
+            <TextView
+                android:id="@+id/txt6c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt6b"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imgMain6"
+                android:text="+91 5999999999"
+                android:textColor="#26c6da" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
