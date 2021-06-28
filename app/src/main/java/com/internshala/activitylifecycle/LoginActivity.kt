@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
 
     lateinit var sharedPreferences: SharedPreferences
 
-    val validMobileNumber = "8299225810"
+    val validMobileNumber = "1234"
     val validPwd = arrayOf("surya", "karn", "bhishma", "arjuna", "abhimanyu", "krishna")
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -127,6 +127,11 @@ class LoginActivity : AppCompatActivity() {
 
         tvRegistration.setOnClickListener{
             val intent = Intent(this@LoginActivity, RegistrationActivity::class.java)
+            startActivity(intent)
+        }
+
+        tvForgotPwd.setOnClickListener{
+            val intent = Intent(this@LoginActivity, ForgotPasswordActivity::class.java)
             startActivity(intent)
         }
     }
