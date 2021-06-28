@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f0f4c3"
-    tools:context=".NewActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imgHome"
@@ -17,7 +17,7 @@
         tools:ignore="ContentDescription" />
 
     <EditText
-        android:id="@+id/tvNumber"
+        android:id="@+id/etNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgHome"
@@ -31,10 +31,10 @@
         tools:ignore="TextViewEdits" />
 
     <EditText
-        android:id="@+id/tvPwd"
+        android:id="@+id/etPwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvNumber"
+        android:layout_below="@+id/etNumber"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="10dp"
         android:hint="@string/password_hint"
@@ -47,7 +47,7 @@
         android:id="@+id/btnLogIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tvPwd"
+        android:layout_below="@id/etPwd"
         android:layout_marginHorizontal="80dp"
         android:layout_marginTop="20dp"
         android:padding="10dp"
@@ -60,23 +60,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnLogIn"
-        android:text="@string/forgot_pwd_hint"
-        android:textSize="15sp"
-        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:text="@string/forgot_pwd_hint"
         android:textColor="#2196f3"
-        android:padding="6dp"/>
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/tvRegistration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="@string/registration_hint"
-        android:textSize="15sp"
-        android:layout_marginBottom="15dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:padding="6dp"
+        android:text="@string/registration_hint"
         android:textColor="#2196f3"
-        android:padding="6dp"/>
+        android:textSize="15sp" />
 
 </RelativeLayout>

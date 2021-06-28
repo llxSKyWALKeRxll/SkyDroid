@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationInfoActivity"
+    android:background="#f0f4c3">
+
+    <TextView
+        android:id="@+id/txtHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The details entered are displayed below:"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic"/>
+
+
+    <TextView
+        android:id="@+id/txtInfoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="15sp"
+        android:layout_below="@+id/txtHint"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtInfoNameAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/txtHint"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/txtInfoName"
+        android:textColor="@color/black"
+        android:text="Dummy"/>
+
+
+    <TextView
+        android:id="@+id/txtInfoMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail: "
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txtInfoName"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtInfoMailAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtInfoName"
+        android:layout_toRightOf="@+id/txtInfoMail"
+        android:textColor="@color/black"
+        android:text="Dummy"/>
+
+
+    <TextView
+        android:id="@+id/txtInfoNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number: "
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txtInfoMail"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtInfoNumberAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtInfoMail"
+        android:layout_toRightOf="@+id/txtInfoNumber"
+        android:textColor="@color/black"
+        android:text="Dummy"/>
+
+
+    <TextView
+        android:id="@+id/txtInfoAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Address: "
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txtInfoNumber"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtInfoAddressAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtInfoNumber"
+        android:layout_toRightOf="@+id/txtInfoAddress"
+        android:textColor="@color/black"
+        android:text="Dummy"/>
+
+
+    <TextView
+        android:id="@+id/txtInfoPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txtInfoAddress"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtInfoPwdAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtInfoAddress"
+        android:layout_toRightOf="@+id/txtInfoPwd"
+        android:textColor="@color/black"
+        android:text="Dummy"/>
+
+</RelativeLayout>

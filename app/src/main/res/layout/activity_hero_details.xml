@@ -9,6 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -19,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:backgroundTint="#ff1744"
-                android:text="HERO DETAILS"
+                android:text="TEAM DETAILS"
                 android:textColor="#ffd600"
                 android:textSize="25sp" />
 
@@ -62,26 +63,6 @@
                 android:layout_toRightOf="@+id/imgMain1"
                 android:text="+91 1234567890"
                 android:textColor="#f9a825" />
-
-            <!--            <Button-->
-            <!--                android:id="@+id/buttonInfo"-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_below="@+id/imgMain"-->
-            <!--                android:layout_marginLeft="30dp"-->
-            <!--                android:layout_marginRight="30dp"-->
-            <!--                android:backgroundTint="#0288d1"-->
-            <!--                android:text="MORE INFORMATION"-->
-            <!--                android:textStyle="bold" />-->
-
-            <!--            <Button-->
-            <!--                android:id="@+id/buttonExit"-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_alignParentBottom="true"-->
-            <!--                android:backgroundTint="#d84315"-->
-            <!--                android:text="EXIT THE APP"-->
-            <!--                android:textStyle="bold" />-->
 
 
             <ImageView
@@ -287,6 +268,26 @@
                 android:layout_toRightOf="@+id/imgMain6"
                 android:text="+91 5999999999"
                 android:textColor="#26c6da" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSignOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#e53935"
+                android:padding="10dp"
+                android:text="SIGN OUT"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
