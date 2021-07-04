@@ -5,4 +5,4 @@ So far, I am finding android app development to be quite easy, understandable an
 The web development course and project that I did recently is really helping me out here as Kotlin & Java and XML & HTML go hand in hand.  
 I am really excited to build a useful and productive application from the knowledge that I will have after the completion of this course.  
 This is my first application on Android.  
-//Screenshots will be added in due course of time
+> Screenshots will be added in due course of time
